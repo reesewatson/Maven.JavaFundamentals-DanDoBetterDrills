@@ -53,7 +53,7 @@ public class TestMultiplication {
         byte multiplier = 14;
         byte expectedByte = 64;
         // : When
-        byte actualByte = mathUtils.multiply(multiplicand, multiplier);
+        byte actualByte = (byte) mathUtils.multiply(multiplicand, multiplier);
         // : Then
         assertEquals(expectedByte, actualByte);
     }
